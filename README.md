@@ -8,15 +8,19 @@ Not entirely necessary, but makes viewing the figures easier if desired. I use O
 
 # Building
 Basic makefile will build the various components
-- Make GenerateTrainingFile
-- Make TrainFann
-- Make TestFann
+`Make GenerateTrainingFile`
+`Make TrainFann`
+`Make TestFann`
 
 # Running
 Process data and generate a file to train FANN. The MNIST handwritten data set this was built for can be found at http://yann.lecun.com/exdb/mnist/
 Your own data could certainly be substituted.
-- ./GenerateTrainingFile [Labels.idx1] [ImageData.idx3] [OutputFileName.txt]
+`./GenerateTrainingFile [Labels.idx1] [ImageData.idx3] [OutputFileName.txt]`
+
 Train FANN
-- ./TrainFann [TrainingData.txt] [savedANN.net]
+
+`./TrainFann [TrainingData.txt] [savedANN.net]`
+
 Test and run FANN. There are separate test sets to check that FANN is working correctly
-- ./TestFann [Labels.idx1] [ImageData.idx3] [savedANN.net]
+
+`./TestFann [Labels.idx1] [ImageData.idx3] [savedANN.net]`
