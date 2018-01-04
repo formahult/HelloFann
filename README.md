@@ -3,7 +3,9 @@ Hand written firgure recognition artificial neural network built for the canonic
 
 # Dependecies
 - OpenCV3 https://opencv.org/
-Not entirely necessary, but makes viewing the figures easier if desired. I use OpenCV in further more complex character recognitionprojects.
+
+Not entirely necessary, but makes viewing the figures easier if desired. I use OpenCV in further more complex character recognition projects.
+
 - Fast Artificial Neural Network (FANN) library http://yann.lecun.com/exdb/mnist/
 
 # Building
