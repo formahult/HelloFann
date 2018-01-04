@@ -6,7 +6,7 @@ Hand written firgure recognition artificial neural network built for the canonic
 
 Not entirely necessary, but makes viewing the figures easier if desired. I use OpenCV in further more complex character recognition projects.
 
-- Fast Artificial Neural Network (FANN) library http://yann.lecun.com/exdb/mnist/
+- Fast Artificial Neural Network (FANN) library http://leenissen.dk/fann/wp/
 
 # Building
 Basic makefile will build the various components
