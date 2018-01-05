@@ -32,7 +32,7 @@ int main(int argc, char const *argv[]) {
   int fail = 0;
   int success = 0;
 
-  for(int i = 0; i < 100; i++){
+  for(int i = 0; i < images.getNumber(); i++){
 
     uchar* data = images.getImage(i).data;
 
@@ -68,7 +68,7 @@ int main(int argc, char const *argv[]) {
     if(labels.getLabel(i) == index){
       success++;
     } else {
-      cout << "Output:" << index << endl;
+      cout << "Failed, FANN Guessed:" << index << " should be:" << labels.getLabel(i) << endl;
       imshow("Display window", images.getImage(i));
       waitKey(0);
       fail++;
